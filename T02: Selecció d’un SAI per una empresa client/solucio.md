@@ -80,4 +80,4 @@ Format: El disseny en rack 2U és ideal per a entorns amb espai limitat.
 
 ---
 
-[Torna a enrera](./RADME.md
+[Torna a enrera](./RADME.md)
