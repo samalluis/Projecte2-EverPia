@@ -1,4 +1,7 @@
 # Projecte2-EverPia
+
+## Descripció
+
 Benvinguts a EverPia, una consultora IT que té com a missió resoldre els reptes tecnològics de clients molt diversos. Acabeu d’incorporar-vos a l’empresa com a nous consultors júnior i, a partir d’avui, formareu part de l’equip que dona servei a diferents organitzacions. Cada client té les seves necessitats concretes i, sovint, semblen projectes inconnexos. Però no us enganyeu: el que realment us demanem és capacitat d’adaptació, visió global i organització.
 
 L’origen d’EverPia es remunta a uns anys enrere, quan vuit professors —Rubén, Isabel, Carles Alonso, Cristian, Carles Fugarolas, Natalia i Núria— van decidir unir les seves forces. Tots ells compartien una passió: la informàtica i l’educació. Però també una convicció profunda: la tecnologia no té sentit si no ajuda a les persones i a les organitzacions a créixer.
