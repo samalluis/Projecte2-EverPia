@@ -14,12 +14,6 @@ Aquesta activitat consisteix en:
   - Models analitzats
   - Justificació de la tria final
 
-## 📂 Contingut de la carpeta
-| Arxiu | Descripció |
-|:------|:------------|
-| `solucio.md` | Document amb la resolució completa de l’activitat: inventari, càlculs, comparació de models i conclusió. |
 
-## 🔗 Enllaç directe a la solució
-👉 [Accedir a l’arxiu](https://docs.google.com/document/d/1CdpT7NZ2j_zwYHFslogMEhSVwFwqSUcK-1mAAA1Tor0/edit?usp=sharing)
 
 
