@@ -13,4 +13,5 @@ Junts van fundar la consultora EverPia, un nom que uneix “ever” (sempre) amb
 
 
   · [T02: Selecció d’un SAI per una empresa client](https://github.com/samalluis/Projecte2-EverPia/tree/main/T02%3A%20Selecci%C3%B3%20d%E2%80%99un%20SAI%20per%20una%20empresa%20client)
+  
   · [T03: Seguretat Lògica: recuperant accés a sistemes](https://github.com/samalluis/Projecte2-EverPia/tree/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes)
