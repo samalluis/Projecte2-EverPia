@@ -2,7 +2,7 @@
 
 ## 🖥️ Ordinadors
 
-<img src="img/ordenadores.png" alt="ordenadores" width="400" height="400">
+![ordenadors](img/ordenadores.png)
 
 **PcCom Work Intel Core i5-12400 / 32GB / 2TB SSD + Windows 11 Pro**  
 **Quantitat:** 4  
