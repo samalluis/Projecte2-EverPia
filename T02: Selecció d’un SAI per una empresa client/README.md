@@ -17,7 +17,7 @@ L’empresa **TecnoGestió S.L.**, dedicada a la gestió documental i assessoram
 ## 🔗 Enllaç directe a la solució
 👉 [Accedir a l’arxiu **solucio.md**](solucio.md)
 
-[Torna a la **pagina principal**](https://github.com/samalluis/Projecte2-EverPia/blob/main/README.md)
+[Torna a la **pagina principal**](..)
 
 
 
