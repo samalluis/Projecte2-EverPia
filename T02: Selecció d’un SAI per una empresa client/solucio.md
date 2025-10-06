@@ -34,14 +34,14 @@
 
 ---
 
-##⏱️ Determinació de l’Autonomia
+## ⏱️ Determinació de l’Autonomia
 
 Un SAI amb una autonomia de 10 a 20 minuts seria suficient per poder guardar tots els treballs importants.
 Es recomana buscar els 20 minuts per si hi ha algun treball molt pesat o una acumulació de treballs per guardar bastant gran.
 
 ---
 
-##🔍 Recerca de Models de SAI
+## 🔍 Recerca de Models de SAI
 
 - Phasak Protekt PH-7631 3160VA SAI Rack
 - Salicru SLC-5000-TWIN RT3
@@ -49,7 +49,7 @@ Es recomana buscar els 20 minuts per si hi ha algun treball molt pesat o una acu
 
 ---
 
-##✅ Recomanació
+## ✅ Recomanació
 
 Empresa: TecnoGestió S.L.
 Model Recomanat: Phasak Protekt PH-7631 (Rack)
