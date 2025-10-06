@@ -10,3 +10,7 @@ El Carles Fugarolas, mestre de servidors i xarxes.
 La Natalia, la estratega detallista i rigorosa.
 La Núria, creadora d’idees i projectes.
 Junts van fundar la consultora EverPia, un nom que uneix “ever” (sempre) amb “Pia”, en homenatge a l’esperit educatiu i a la visió de treballar per un futur millor. La seva llegenda comença en una petita sala plena de cables i ordinadors antics, on van jurar: “Mai treballarem sols. Cada projecte serà una oportunitat per créixer junts.”
+
+
+  · [T02: Selecció d’un SAI per una empresa client](ruta)
+  · [T03: Seguretat Lògica: recuperant accés a sistemes](ruta)
