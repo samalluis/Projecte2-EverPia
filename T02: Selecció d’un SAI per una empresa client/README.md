@@ -17,7 +17,7 @@ L’empresa **TecnoGestió S.L.**, dedicada a la gestió documental i assessoram
 ## 🔗 Enllaç directe a la solució
 👉 [Accedir a l’arxiu **solucio.md**](https://github.com/samalluis/Projecte2-EverPia/blob/main/T02%3A%20Selecci%C3%B3%20d%E2%80%99un%20SAI%20per%20una%20empresa%20client/solucio.md)
 
-[Torna a la **pagina principal**]()
+[Torna a la **pagina principal**](https://github.com/samalluis/Projecte2-EverPia/blob/main/README.md)
 
 
 
