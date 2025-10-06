@@ -77,3 +77,7 @@ Adequació de potència: 3160 VA / 2100 W, suficient per cobrir les necessitats 
 Autonomia: Ofereix una autonomia estimada de 10 a 15 minuts, suficient per desar la feina i apagar els equips de manera segura en cas de tall elèctric.
 Característiques tècniques: Ona sinusoidal pura, regulador automàtic de voltatge (AVR), múltiples sortides, pantalla LCD i comunicació RS-232 i USB.
 Format: El disseny en rack 2U és ideal per a entorns amb espai limitat.
+
+---
+
+[Torna a enrera](./RADME.md
