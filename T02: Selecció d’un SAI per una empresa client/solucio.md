@@ -2,6 +2,8 @@
 
 ## 🖥️ Ordinadors
 
+<img src="img/ordenadores.png" alt="ordenadores" width="400" height="400">
+
 **PcCom Work Intel Core i5-12400 / 32GB / 2TB SSD + Windows 11 Pro**  
 **Quantitat:** 4  
 **Consum:** 500W/unitat  
@@ -11,19 +13,34 @@
 
 ## 🖥️ Monitors
 
-**[Alurin CoreVision 27" IPS 4K Freesync (Reacondicionat)](https://www.pccomponentes.com/monitor-alurin-corevision-27-ips-4k-freesync-altura-regulable?ref poder desar la informació en cas de tall de llum.
+![Monitors](img/monitores.png)
+
+**Alurin CoreVision 27" IPS 4K Freesync**
+**Quantitat:** 4  
+**Consum:** 48W/unitat  
+**Funció:** Imprescindibles per el mateix cas que els ordinadors ja que sensa els monitors seria practicament imposible poder guardar la informació.
 
 ---
 
 ## 🖨️ Impressora
 
-**[HP LaserJet Pro MFP M428fdw (W1A30A)](https://pcb.inc.hp.com/dc/api/spec-sheet/ww-en/19204100/pdf/Wu alt consum i la no essencialitat en cas de tall elèctric fan que no sigui prioritària.
+![Impressora](img/impressora.png)
+
+**HP LaserJet Pro MFP** alt consum i la no essencialitat en cas de tall elèctric fan que no sigui prioritària.
+**Quantitat:** 1  
+**Consum:** 510W/unitat  
+**Funció:** No la connectarem al SAI. Aquest tipus de màquina consumeix molta energia i no és essencial en cas de tall elèctric. La prioritat és mantenir els ordinadors i el router.
 
 ---
 
 ## 🌐 Router
 
-**[TP-Link Archer AX53](https://www.tp-link.com/es/home-networking/wifi-router/archer-ax53/#specificationsermetre desar dades al núvol durant un tall de llum.
+![router](img/router.png)
+
+**TP-Link Archer AX53**
+**Quantitat:** 1  
+**Consum:** 12W/unitat  
+**Funció:** És necessari perquè dona connexió a tots els ordinadors i permet continuar treballant (o almenys enviar/guardar dades al núvol) durant una estona.
 
 ---
 
