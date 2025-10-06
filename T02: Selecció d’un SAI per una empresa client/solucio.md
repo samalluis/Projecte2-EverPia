@@ -80,4 +80,4 @@ Format: El disseny en rack 2U és ideal per a entorns amb espai limitat.
 
 ---
 
-[Torna a enrera](./RADME.md)
+◀️[Torna a enrera](https://github.com/samalluis/Projecte2-EverPia/blob/main/T02%3A%20Selecci%C3%B3%20d%E2%80%99un%20SAI%20per%20una%20empresa%20client/README.md)
