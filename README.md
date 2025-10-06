@@ -11,6 +11,7 @@ La Natalia, la estratega detallista i rigorosa.
 La Núria, creadora d’idees i projectes.
 Junts van fundar la consultora EverPia, un nom que uneix “ever” (sempre) amb “Pia”, en homenatge a l’esperit educatiu i a la visió de treballar per un futur millor. La seva llegenda comença en una petita sala plena de cables i ordinadors antics, on van jurar: “Mai treballarem sols. Cada projecte serà una oportunitat per créixer junts.”
 
+## Tasques del Projecte
 
   - [T02: Selecció d’un SAI per una empresa client](https://github.com/samalluis/Projecte2-EverPia/tree/main/T02%3A%20Selecci%C3%B3%20d%E2%80%99un%20SAI%20per%20una%20empresa%20client)
   - [T03: Seguretat Lògica: recuperant accés a sistemes](https://github.com/samalluis/Projecte2-EverPia/tree/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes)
