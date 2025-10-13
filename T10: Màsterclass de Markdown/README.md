@@ -22,3 +22,5 @@ L’objectiu és dominar Markdown, un llenguatge senzill però molt utilitzat al
 ---
 
 [Manual Markdawn](solucio.md)
+
+🏠[Torna menu principal](..)
