@@ -36,9 +36,13 @@
 
 ## 3. Comparativa de hostings
 
-ProveïdorEspai en discTransferència mensualPreu mensualAvantatgesInconvenientsWebempresa11 GB SSD~50.000 visites9,01 €Bon suport, seguretat, velocitatEspai limitat, escalabilitat costosa| Raiola Networks    | 15 GB SSD NVMe| 3000 visites/dia       | 9,62 €       | Bon rendiment, suport tècnic                   | Transferència limitada, preu mitjà        |
-| SiteGround         | 20 GB SSD     | 50 usuaris simultanis  | 33,86 €      | Alt rendiment, eines avançades                 | Renovació cara, sense staging al pla bàsic|
-| Dinahosting        | 50 GB         | Il·limitada            | 6,59 €       | Molt espai, preu baix, transferència il·limitada| No especifica RAM ni CPU                  |
+| Proveïdor         | Espai en disc  | Transferència mensual  | Preu mensual | Avantatges                                          | Inconvenients                                   |
+|-------------------|----------------|-------------------------|---------------|----------------------------------------------------|------------------------------------------------|
+| Webempresa        | 11 GB SSD      | ~50.000 visites         | 9,01 €        | Bon suport, seguretat, velocitat                   | Espai limitat, escalabilitat costosa           |
+| Raiola Networks   | 15 GB SSD NVMe | 3000 visites/dia        | 9,62 €        | Bon rendiment, suport tècnic                       | Transferència limitada, preu mitjà             |
+| SiteGround        | 20 GB SSD      | 50 usuaris simultanis   | 33,86 €       | Alt rendiment, eines avançades                     | Renovació cara, sense staging al pla bàsic     |
+| Dinahosting       | 50 GB          | Il·limitada             | 6,59 €        | Molt espai, preu baix, transferència il·limitada   | No especifica RAM ni CPU                       |
+
 
 ## 4. Checklist de requisits complerts
 
