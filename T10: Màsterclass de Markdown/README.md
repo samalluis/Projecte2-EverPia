@@ -64,7 +64,7 @@ Markdown és un llenguatge de marques que permet escriure documents **estructura
 - [GitHub](https://github.com)
 
 ### 6.2 Imatges
-![Logotip EverPia](https://via.placeholder.com/150)
+![Logotip EverPia](img/baixa.jpg)
 
 ---
 
