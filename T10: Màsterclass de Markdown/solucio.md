@@ -86,4 +86,7 @@ Aquest manual serveix com a punt de partida per crear documents clars, estructur
 - [Guia oficial Markdown](https://www.markdownguide.org)
 - [GitHub Docs](https://docs.github.com)
 
+---
+
+[Torna enrera](..)
 
