@@ -18,3 +18,7 @@ L’objectiu és dominar Markdown, un llenguatge senzill però molt utilitzat al
 - Inserir enllaços i imatges en documents tècnics.
 
 - Integrar Markdown en GitHub, com a part del teu flux de treball.
+
+---
+
+[Manual Markdawn](solucio.md)
