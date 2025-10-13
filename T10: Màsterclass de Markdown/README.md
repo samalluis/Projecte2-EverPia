@@ -44,7 +44,7 @@ Markdown és un llenguatge de marques que permet escriure documents **estructura
 ### 4.3 Checklist
 - [x] Tasca completada
 - [ ] Tasca pendent
-- [ ] Tasca futura
+- [ ] Tasca en curs
 
 ---
 
@@ -62,7 +62,6 @@ Markdown és un llenguatge de marques que permet escriure documents **estructura
 
 ### 6.1 Enllaços
 - [GitHub](https://github.com)
-- [EverPia](https://www.everpia.com)
 
 ### 6.2 Imatges
 ![Logotip EverPia](https://via.placeholder.com/150)
