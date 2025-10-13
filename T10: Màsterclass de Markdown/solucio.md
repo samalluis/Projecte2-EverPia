@@ -88,5 +88,5 @@ Aquest manual serveix com a punt de partida per crear documents clars, estructur
 
 ---
 
-[Torna enrera](..)
+[Torna enrera](README.md)
 
