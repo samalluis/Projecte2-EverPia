@@ -13,8 +13,11 @@ habilitat la opció de **"Use an existing virtual hard disk file"** i selecciona
 Al entrar a la maquina trobarem que no sabem la contrasenya a si que tindrem que canviar-la, per poder fer aixo necesitarem entrar al grub, i per entrar al grub el primer que farem sera reiniciar la maquina mentres prement la tecla escape d'aquesta manera entrarem al grub i un cop a dins del grub utilitzarem les seguents comandes per poder entrar en modo root:
 
 1 - set root=(hd0,gpt3)
+
 2 - linux /boot/vmlinuz-6.8.0-52-generic root=/dev/sda3 rw init=/bin/bash
+
 3 - initrd /boot/initrd.img-6.8.0-52-generic
+
 4 - boot
 
 despres de fer servir aquestas comendes ja estarem en mode root, un cop a dins nomes tindrem que fer un "passwd miquel" i ja podrem canviar la contraseña.
