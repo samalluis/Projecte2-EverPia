@@ -69,42 +69,55 @@ Això ofereix una protecció equilibrada, ja que evita modificacions no autoritz
 
 ### 1. linux /boot/vmlinuz-6.8.0-52-generic root=/dev/sda3 rw init=/bin/bash
 
-Aquesta línia carrega el nucli (kernel) de Linux i li passa paràmetres d’arrencada.
-
-**Desglossant-la:**
-- linux → indica al GRUB que carregui un nucli Linux.
-- /boot/vmlinuz-6.8.0-52-generic → és el fitxer del nucli (kernel) que vols arrencar.
-- root=/dev/sda3 → especifica quin dispositiu serà la partició arrel (/) del sistema.
-- rw → munta el sistema de fitxers arrel en mode lectura-escriptura (read-write).
-
-init=/bin/bash → substitueix el procés d’inici normal (/sbin/init o systemd) per una shell Bash.
-Això és útil per entrar al sistema manualment, per exemple per canviar contrasenyes o reparar fitxers.
-
-**En resum:**
-Carrega el nucli i li diu que la partició arrel és /dev/sda3, que s’ha de muntar en mode lectura-escriptura i que s’ha d’iniciar amb una shell Bash en lloc del procés d’inici normal.
+Carrega el nucli de Linux i inicia una sessió Bash com a root, muntant la partició arrel /dev/sda3 en mode lectura-escriptura.
 
 ### 2. initrd /boot/initrd.img-6.8.0-52-generic
 
-Aquesta comanda carrega la imatge de disc RAM inicial (initrd = initial RAM disk).
-
-**Funció:**
-Conté mòduls del nucli i scripts d’inici necessaris per muntar el sistema arrel (per exemple, controladors de disc, sistemes de fitxers, etc.).
-És essencial perquè el sistema pugui accedir al disc i carregar completament Linux.
-
-**En resum:**
-Carrega al GRUB la imatge initrd, que és un petit sistema de fitxers temporal que ajuda el nucli a arrencar.
+Carrega la imatge initrd, que conté mòduls i fitxers necessaris per arrencar el sistema.
 
 ### 3. boot
 
-Aquesta és la comanda que inicia efectivament l’arrencada després d’haver carregat el nucli i l’initrd.
+Inicia l’arrencada del sistema amb el nucli i la configuració carregada.
 
-Funció:
-Diu al GRUB que transfereixi el control al nucli que acabes de carregar amb les comandes anteriors.
-Fins que no executes boot, el sistema no comença realment a arrencar.
+### 4. passwd miquel
 
-En resum:
-Inicia el procés d’arrencada amb el nucli i paràmetres que s’han carregat.
+Permet canviar la contrasenya de l’usuari miquel (o qualsevol altre usuari).
 
+### 5. grub-mkpasswd-pbkdf2
+
+Genera una contrasenya encriptada (hash PBKDF2) per protegir el menú del GRUB.
+
+### 6. sudo nano /etc/grub.d/40_custom
+
+Obre el fitxer de configuració personalitzada del GRUB amb Nano per afegir usuari i contrasenya.
+
+### 7. set superusers="root"
+
+Defineix l’usuari root com a administrador del GRUB.
+
+### 8. password_pbkdf2 root <hash>
+
+Associa la contrasenya encriptada (hash) a l’usuari root del GRUB.
+
+### 9. Ctrl + O, Enter, Ctrl + X
+
+Comandes de Nano per guardar i sortir del fitxer.
+
+### 10. sudo update-grub
+
+Actualitza i regenera la configuració del GRUB aplicant tots els canvis fets.
+
+### 11. Ctrl + W
+
+Cerca una paraula dins Nano, útil per trobar línies concretes com menuentry.
+
+### 12. --unrestricted
+
+Permet que una entrada del GRUB s’executi sense contrasenya, mantenint protegides les opcions d’edició i avançades.
+
+### 13. reboot
+
+Reinicia el sistema per aplicar i comprovar els canvis.
 
 
 
