@@ -69,7 +69,7 @@ D’aquesta manera indiquem que aquestes entrades es poden executar sense contra
 Després de fer els canvis, guardem el fitxer amb **control + o, enter, control + x**
 I regenerem la configuració del GRUB amb un **sudo update-grub**:
 
-![tratra2](img/carlitos6.png)
+![tratra2](img/carlitos5.png)
 
 Finalment, reiniciem la màquina perquè s’apliquin els canvis.
 
