@@ -60,14 +60,16 @@ Primer, obrirem el fitxer /etc/grub.d/10_linux, que és el responsable de genera
 ![power](img/carlitos9.png)
 
 Ens desplacem pel fitxer (és llarg, té més de 400 línies) fins trobar les següents línies:
-
 Aquestas lineas les podem trobar facilment fent un **control + w**, aquesta combinació et obrira un cercador de paraules, i nomes introduint la paraula **menuentry** ens portara directament on volem arribar.
-
 A cada una de les dues línies anteriors, ens situem després del paràmetre ${CLASS} i afegim la comanda **"--unrestricted"**:
+
+![unrestricted](img/carlitos8.png)
 
 D’aquesta manera indiquem que aquestes entrades es poden executar sense contrasenya, però que la resta d’opcions del GRUB (com editar, accedir a la línia de comandes o veure altres kernels) continuaran protegides.
 Després de fer els canvis, guardem el fitxer amb **control + o, enter, control + x**
 I regenerem la configuració del GRUB amb un **sudo update-grub**:
+
+![tratra2](img/carlitos6.png)
 
 Finalment, reiniciem la màquina perquè s’apliquin els canvis.
 
