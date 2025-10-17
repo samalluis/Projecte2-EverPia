@@ -28,3 +28,8 @@ Finalment, s’haurà de **documentar tot el procés** i pujar l’informe amb c
 
 **✅ Resultat esperat:** un sistema accessible i protegit, amb un informe tècnic clar i complet.
 
+---
+
+[Torna a enrera](..)
+
+[solucio](https://github.com/samalluis/Projecte2-EverPia/blob/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes/solucio.md)
