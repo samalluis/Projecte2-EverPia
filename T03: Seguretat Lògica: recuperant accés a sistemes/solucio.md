@@ -135,7 +135,9 @@ Permet que una entrada del GRUB s’executi sense contrasenya, mantenint protegi
 
 Reinicia el sistema per aplicar i comprovar els canvis.
 
+---
 
+[Torna a la T03](README.md)
 
 
 
