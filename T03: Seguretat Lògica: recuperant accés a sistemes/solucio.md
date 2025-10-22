@@ -48,9 +48,11 @@ password_pbkdf2 root (enganchar el hash anteriorment copiat)
 
 ![malamente](img/carlitos5.png)
 
+![tratra](img/carlitos6.png)
+
 Un cop fet tot aixo guardem els canvis amb **"control + o" "enter" "control + x"**, i un cop fora guardarem tots el canvis del que hem fet al GRUB amb la comanda **"sudo update-grub"**.
 
-![tratra](img/carlitos6.png)
+![tratra](img/carlitos7.png)
 
 I amb aixo ja tindriam la proteccio basica del GRUB, fent que quant reinicias la maquina, sempre et demani el root + contrasenya, tan com per poder entrar al GRUB, com per una arrencada de sistema normal, aquest ultim pot arribar ser un inconvenient ja que aixo pot ser que no l'hi agradi al client.
 
@@ -74,7 +76,7 @@ D’aquesta manera indiquem que aquestes entrades es poden executar sense contra
 Després de fer els canvis, guardem el fitxer amb **control + o, enter, control + x**
 I regenerem la configuració del GRUB amb un **sudo update-grub**:
 
-![tratra2](img/carlitos5.png)
+![tratra2](img/carlitos7.png)
 
 Finalment, reiniciem la màquina perquè s’apliquin els canvis.
 
