@@ -5,6 +5,10 @@
 
 Per a aquesta maquina haurem de ficar una memoria base de **8 GB i 2 processadors**, i no ficar cap disc ja que utilitzarem un disc amb una iso ja creada. Ara anirem a la opció de **"Hard disk"**
 habilitat la opció de **"Use an existing virtual hard disk file"** i seleccionarem el disc amb la iso, i ja ho tindriem llest per arrancar la maquina.
+![maquina](img/ConfMaq1.png)
+
+![maaquina](img/ConfMaq2.png)
+
 
 ---
 
