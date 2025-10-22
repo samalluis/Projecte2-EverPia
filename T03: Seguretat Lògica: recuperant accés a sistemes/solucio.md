@@ -78,10 +78,15 @@ El sistema arrenca automàticament sense demanar contrasenya.
 Si intentes editar les opcions del GRUB, accedir a la consola o veure els modes avançats, et demanarà usuari i contrasenya.
 Això ofereix una protecció equilibrada, ja que evita modificacions no autoritzades al GRUB però no incomoda l’usuari en l’arrencada normal.
 
+---
 
-## Explicacio de les comandes
+## Infografia
+
+[pagina web amb la informació](https://soloconlinux.org.es/securizando-grub/)
 
 ---
+
+## Explicacio de les comandes
 
 ### 1. linux /boot/vmlinuz-6.8.0-52-generic root=/dev/sda3 rw init=/bin/bash
 
