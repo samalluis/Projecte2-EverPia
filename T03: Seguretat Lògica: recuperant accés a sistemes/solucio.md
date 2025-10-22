@@ -6,6 +6,8 @@
 Per a aquesta maquina haurem de ficar una memoria base de **8 GB i 2 processadors**, i no ficar cap disc ja que utilitzarem un disc amb una iso ja creada. Ara anirem a la opció de **"Hard disk"**
 habilitat la opció de **"Use an existing virtual hard disk file"** i seleccionarem el disc amb la iso, i ja ho tindriem llest per arrancar la maquina.
 
+![maquina](https://github.com/samalluis/Projecte2-EverPia/blob/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes/img/Captura%20de%20pantalla%202025-10-22%20200944.png)
+
 ![maquina](img/ConfMaq1.png)
 
 ![maaquina](img/ConfMaq2.png)
@@ -54,7 +56,12 @@ Un cop fet tot aixo guardem els canvis amb **"control + o" "enter" "control + x"
 
 ![tratra](img/carlitos7.png)
 
-I amb aixo ja tindriam la proteccio basica del GRUB, fent que quant reinicias la maquina, sempre et demani el root + contrasenya, tan com per poder entrar al GRUB, com per una arrencada de sistema normal, aquest ultim pot arribar ser un inconvenient ja que aixo pot ser que no l'hi agradi al client.
+I amb aixo ja tindriam la proteccio basica del GRUB, fent que quant reinicias la maquina, sempre et demani el root + contrasenya, tan com per poder entrar al GRUB, com per una arrencada de sistema normal,un cop fiquem el usuari i contrasenya ja s'arrancara el sistema, aquest ultim pot arribar ser un inconvenient ja que aixo pot ser que no l'hi agradi al client.
+
+![reboot](https://github.com/samalluis/Projecte2-EverPia/blob/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes/img/Captura%20de%20pantalla%202025-10-22%20202356.png)
+
+![hofhgsd](https://github.com/samalluis/Projecte2-EverPia/blob/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes/img/Captura%20de%20pantalla%202025-10-22%20202433.png)
+
 
 ---
 
@@ -82,7 +89,15 @@ Finalment, reiniciem la màquina perquè s’apliquin els canvis.
 
 ### Resultat final
 El sistema arrenca automàticament sense demanar contrasenya.
-Si intentes editar les opcions del GRUB, accedir a la consola o veure els modes avançats, et demanarà usuari i contrasenya.
+
+![sfsfds](https://github.com/samalluis/Projecte2-EverPia/blob/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes/img/Captura%20de%20pantalla%202025-10-22%20203550.png)
+
+Si intentes editar les opcions del GRUB, accedir a la consola o veure els modes avançats, et demanarà usuari i contrasenya, pero si seleccionem la opcio de zorin no et demanara (aquesta pantalla et sortira al intentar entrar a la bios fent escape).
+
+![adadsasda](https://github.com/samalluis/Projecte2-EverPia/blob/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes/img/Captura%20de%20pantalla%202025-10-22%20203603.png)
+
+![sdfsfsd](https://github.com/samalluis/Projecte2-EverPia/blob/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes/img/Captura%20de%20pantalla%202025-10-22%20203643.png)
+
 Això ofereix una protecció equilibrada, ja que evita modificacions no autoritzades al GRUB però no incomoda l’usuari en l’arrencada normal.
 
 ---
