@@ -56,7 +56,7 @@ Un cop fet tot aixo guardem els canvis amb **"control + o" "enter" "control + x"
 
 ![tratra](img/carlitos7.png)
 
-I amb aixo ja tindriam la proteccio basica del GRUB, fent que quant reinicias la maquina, sempre et demani el root + contrasenya, tan com per poder entrar al GRUB, com per una arrencada de sistema normal,un cop fiquem el usuari i contrasenya ja s'arrancara el sistema, aquest ultim pot arribar ser un inconvenient ja que aixo pot ser que no l'hi agradi al client.
+I amb aixo ja tindriam la proteccio basica del GRUB, fent que quant reinicias la maquina, **SEMPRE** et demani el root + contrasenya,un cop fiquem el usuari i contrasenya ja s'arrancara el sistema, aixo pot arribar ser un inconvenient ja que al client pot ser que no l'hi agradi.
 
 ![reboot](https://github.com/samalluis/Projecte2-EverPia/blob/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes/img/Captura%20de%20pantalla%202025-10-22%20202356.png)
 
@@ -77,6 +77,12 @@ Ens desplacem pel fitxer (és llarg, té més de 400 línies) fins trobar les se
 Aquestas lineas les podem trobar facilment fent un **control + w**, aquesta combinació et obrira un cercador de paraules, i nomes introduint la paraula **menuentry** ens portara directament on volem arribar.
 A cada una de les dues línies anteriors, ens situem després del paràmetre ${CLASS} i afegim la comanda **"--unrestricted"**:
 
+Com es veu al principi:
+
+![FSFSFSFSD](https://github.com/samalluis/Projecte2-EverPia/blob/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes/img/Captura%20de%20pantalla%202025-10-22%20202855.png)
+
+Com s'ha de veure despres de editar-lo:
+
 ![unrestricted](img/carlitos8.png)
 
 D’aquesta manera indiquem que aquestes entrades es poden executar sense contrasenya, però que la resta d’opcions del GRUB (com editar, accedir a la línia de comandes o veure altres kernels) continuaran protegides.
@@ -92,7 +98,7 @@ El sistema arrenca automàticament sense demanar contrasenya.
 
 ![sfsfds](https://github.com/samalluis/Projecte2-EverPia/blob/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes/img/Captura%20de%20pantalla%202025-10-22%20203550.png)
 
-Si intentes editar les opcions del GRUB, accedir a la consola o veure els modes avançats, et demanarà usuari i contrasenya, pero si seleccionem la opcio de zorin no et demanara (aquesta pantalla et sortira al intentar entrar a la bios fent escape).
+Pero si al entrar a la BIOS volem accedir al grub, entrar a la UEFI o entrar a les opcion avançades del zorin et demanarà usuari i contrasenya, pero si seleccionem la opcio de arrancar el sistema de zorin no et demanara cap usuari ni contrasenya i s'arrancara amb normalitat.
 
 ![adadsasda](https://github.com/samalluis/Projecte2-EverPia/blob/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes/img/Captura%20de%20pantalla%202025-10-22%20203603.png)
 
