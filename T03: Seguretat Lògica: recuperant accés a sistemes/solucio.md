@@ -71,7 +71,7 @@ Un cop tenim la protecció bàsica del GRUB configurada, el següent pas és fer
 
 Primer, obrirem el fitxer /etc/grub.d/10_linux, que és el responsable de generar les entrades del menú del GRUB.
 
-![power](img/carlitos9.png)
+![power](img/Captura%20de%20pantalla%202025-10-22%20202659.png)
 
 Ens desplacem pel fitxer (és llarg, té més de 400 línies) fins trobar les següents línies:
 Aquestas lineas les podem trobar facilment fent un **control + w**, aquesta combinació et obrira un cercador de paraules, i nomes introduint la paraula **menuentry** ens portara directament on volem arribar.
@@ -97,6 +97,8 @@ Si intentes editar les opcions del GRUB, accedir a la consola o veure els modes 
 ![adadsasda](https://github.com/samalluis/Projecte2-EverPia/blob/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes/img/Captura%20de%20pantalla%202025-10-22%20203603.png)
 
 ![sdfsfsd](https://github.com/samalluis/Projecte2-EverPia/blob/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes/img/Captura%20de%20pantalla%202025-10-22%20203643.png)
+
+![nononoo](https://github.com/samalluis/Projecte2-EverPia/blob/main/T03%3A%20Seguretat%20L%C3%B2gica%3A%20recuperant%20acc%C3%A9s%20a%20sistemes/img/Captura%20de%20pantalla%202025-10-22%20204449.png)
 
 Això ofereix una protecció equilibrada, ja que evita modificacions no autoritzades al GRUB però no incomoda l’usuari en l’arrencada normal.
 
